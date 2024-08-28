@@ -1,0 +1,50 @@
+ 
+ node js parts
+ 
+ 1.GLOBAL
+console,promise,number etc...
+ 2. Module : (require('path'),module,export,exports)
+     FileSystem - fs
+     HTTP Module
+     URL
+     nodemailer
+
+
+-> package.json      --> node_modules configuration File  
+-> package-lock.json --> holds versions and details of node-module contents
+-> node_modules      --> a folder to store copy of modules that we locally needed
+
+-> EventEmitter - to define events
+        -> Process : The process object provides information about , and control over , the current node js process 
+        -> dotenv 
+
+
+==> API -> server
+
+JSON , XML
+Client <---- API ----> Server
+REST,SOAP,FAST etc ---> REST (Representational State Transfer) [HTTP protocol based,Comparatively faster , Simpler architecture , JSON]
+
+
+
+-> Express.js
+JSON - Javascript Object Notation ={name:"Ajith" , age:20}  ===> {"name":"ajith", "age" : 20}     
+
+
+
+nb : {"name":"ajith", "age" : 20}   -->   ithanu json format
+
+
+install
+-------
+
+npm init -y --> Initialization  (and open vs code)
+npm i express --> to install express
+
+
+
+.env  -->  runtime environment File
+npm i dotenv
+
+
+npm i cors
